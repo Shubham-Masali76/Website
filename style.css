@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+.menu :hover{
+    color: lawngreen;
+    transition: 0.5s ease-in-out;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0,0.805)50%, rgba(0, 0, 0, 0.805));
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    width: 1200px;
+    height: 75px;
+}
+.icons{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: lawngreen;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.menu a{
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 62px;
+    margin: 27px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial;
+}
+
+.menu a :hover{
+    transition: 0.5s ease;
+    color: lawngreen;
+}
+.search{
+    width: 330px;
+    float: left;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid lawngreen;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: lawngreen;
+    border: 2px solid lawngreen;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 1px;
+}
+.content .cn{
+    width: 220px;
+    height: 40px;
+    border: none;
+    background-color: lawngreen;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .cn a{
+    color: white;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid lawngreen;
+    margin: 0 500px 0 500px;
+}
+.input a{
+    color: white;
+}
+.register a{
+    color: white;
+}
+.content .p{
+    padding: 25px;
+}
+.nav-btn{
+    padding: 10px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: lawngreen;
+    border: 2px solid lawngreen;
+    color: white;
+    font-size: 15px;    
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;   
+}
+.box{
+    display: flex;
+    padding-left: 175px;
+    justify-content: space-between;
+}
+.login{
+    padding-left: 200px;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    padding-top: 5px;
+    margin: 5px;
+    margin-right: 800px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(rgba(113, 109, 109, 0.5)50%, rgba(113, 109, 109, 0.5))50%;
+}
+.register{
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(rgba(113, 109, 109, 0.5)50%, rgba(113, 109, 109, 0.5))50%;
+}
+.input-field{
+    background: transparent;
+    color: white;
+    border: 2px solid lawngreen;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+}
+.header{
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.two-col{
+    padding: 10px;
+}
+.two{
+    padding: 10px;
+}
+.login .input-field{
+    padding: 10px;
+}
+.input-box{
+    padding-top: 5px;
+}
